@@ -12,9 +12,11 @@ To download the necessary files to run the plugin, users can use the link ([http
 For off-line reconstruction, “load folder” in the control panel will be used to load the location where the interferometric images are saved. Further, the users need to create new folder where they wish to save the final image and paste the location under the “save location” tab.
 
 Users have the option to select automated window size for automatic selection of Fourier peak and Fourier filter size. Finally, users select the option between reconstruction, FFT, FFT filter to check the different reconstruction steps. Finally, users can select reconstruction and click the button “start/stop reconstruction”. The final image will be saved in the specified “save location”.
+![python_mNENc72i4V](https://github.com/Hellberg2105/PyQPI/assets/102661396/ed4d115f-ec17-4210-a2fd-0b47630e9df8)
 
 ## Reconstruction with Micro-Manager
 The ability to reconstruct interferograms taken directly from imaging can be done through Micro-Manager. The user needs to install Micro-Manager and capture images with it. Users should then either select automatic window size in PyQPI, or choose a window size that gives a good reconstruction. Pressing the "Do a single reconstruction" button will reconstruct the latest image taken in Micro-Manager. The user can also press the "start/stop live reconstruction" button to continuously reconstruct the latest images from Micro-Manager. This allows for live reconstruction of interferometric images captured with the microscope. 
+![python_mNENc72i4V](https://github.com/Hellberg2105/PyQPI/assets/102661396/f509a442-a072-4fe0-a3f5-b82f277570f7)
 
 ## Unwrapping
 Different unwrapping techniques can be chosen under file menu. The unwrapping techniques will be shown when hovering over the "unwrapping methods" section. Some unwrapping techniques require different parameters like pixel size and wavelength. These unwrapping methods will open a different settings window when chosen, where the user can input the parameters before applying the method. Under "file", the user can load their own image from the computer. Loading a wrapped image and choosing "unwrap image" from the "unwrapping methods" menu, will apply the selected unwrapping technique to the current image.
