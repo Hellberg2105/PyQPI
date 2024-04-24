@@ -22,4 +22,4 @@ The ability to reconstruct interferograms taken directly from imaging can be don
 Different unwrapping techniques can be chosen under file menu. The unwrapping techniques will be shown when hovering over the "unwrapping methods" section. Some unwrapping techniques require different parameters like pixel size and wavelength. These unwrapping methods will open a different settings window when chosen, where the user can input the parameters before applying the method. Under "file", the user can load their own image from the computer. Loading a wrapped image and choosing "unwrap image" from the "unwrapping methods" menu, will apply the selected unwrapping technique to the current image.
 
 ## Test data
-Furthermore, we have provided some images acquired by different off-axis hologram in the folder "Images". Users may use these images to check the contrast of the interferogram and reconstruction steps.# PyQPI
+Furthermore, we have provided some images acquired by different off-axis hologram in the folder "Images". Users may use these images to check the contrast of the interferogram and reconstruction steps.
