@@ -12,21 +12,22 @@ from reconfolder import reconfolder
 
 from PyQt5.QtCore import QObject
 
-Manager_name = 'Manager'
+Manager_name = "Manager"
+
 
 class Manager(QObject):
     """Global plugin registry"""
-    name = 'Manager'
+
+    name = "Manager"
+
     def __init__(self):
         super().__init__()
         self.plugins = {
-            Main_name : None ,
-            Display_name : Display() , 
-            ControlPanel_name : ControlPanel() , 
-            ToolBar_name : Toolbar() ,      
-            ImageHandel_name : ImageHandel(),
-            reconstruction : reconstruction(),
-            reconfolder : reconfolder(),
-
-            }
-
+            Main_name: None,
+            Display_name: Display(),
+            ControlPanel_name: ControlPanel(),
+            ToolBar_name: Toolbar(),
+            ImageHandel_name: ImageHandel(),
+            reconstruction: reconstruction(),
+            reconfolder: reconfolder(),
+        }

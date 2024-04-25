@@ -10,37 +10,38 @@ this function has to be overwritten.
 
 """
 
-# importing nesseary libraries 
+# importing nesseary libraries
 from PyQt5.QtCore import QObject
 
-Plugin_name  = 'Plugin'
+Plugin_name = "Plugin"
+
+
 class Plugin(QObject):
     name = Plugin_name
+
     def __init__(self):
         super().__init__()
-        
 
-
-        
     def setUp_pluginDict(self, pluginDict):
-        """ Evry plugin will refere to other plugins throuh the 
-        plugin dictionary, pluginDict. 
-        
-        input: 
-            The input is the Pluginmanager.plugin dictionary from 
+        """Evry plugin will refere to other plugins throuh the
+        plugin dictionary, pluginDict.
+
+        input:
+            The input is the Pluginmanager.plugin dictionary from
             the PluginManager class"""
-        
+
         self.pluginDict = pluginDict
-        
-    def setUp_screenPosition(self): 
-        """ Seting up the position on the main window screen  """
+
+    def setUp_screenPosition(self):
+        """Seting up the position on the main window screen"""
         pass
-    def setUp_actions(self): 
-        """ Launching all the relevant actions for launching the 
-        plugin """
+
+    def setUp_actions(self):
+        """Launching all the relevant actions for launching the
+        plugin"""
         pass
-    
+
     def setUp_launchButton(self):
-        """ Setting up launch button for launching the 
-        plugin """
+        """Setting up launch button for launching the
+        plugin"""
         pass
