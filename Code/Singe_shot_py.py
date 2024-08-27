@@ -118,7 +118,7 @@ class main:
 
         from tifffile import imsave
 
-        imsave("E:\\test.tiff", arctan, photometric="minisblack")
+        # imsave("E:\\test.tiff", arctan, photometric="minisblack")
         ifft_unwrapped = UNWRAP_MAPPING[Unwrap_method](
             arctan, wavelength=kwargs["wavelength"], pixel_size=kwargs["pixel_size"]
         )  # unwrap phase

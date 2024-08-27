@@ -149,7 +149,7 @@ class reconfolder(QWidget, Plugin):
         self.unwrap_method = self.pluginDict[ToolBar_name].selected_unwrap_method
         self.pixel_size = self.pluginDict[ToolBar_name].pixel_size
         self.wavelength = self.pluginDict[ToolBar_name].wavelength
-        print(self.wavelength)
+        # print(self.wavelength)
 
         # self.adv_tilt_removal = self.adv_tilt_checkbox.isChecked()
 
