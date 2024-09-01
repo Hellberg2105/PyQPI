@@ -14,7 +14,6 @@ from PyQt5.QtWidgets import (
 
 from PyQt5.QtGui import QFont
 from pycromanager import Core
-from matplotlib.pyplot import cm
 
 import numpy as np
 
@@ -35,7 +34,6 @@ class reconstruction(QWidget, Plugin):
         super().__init__()
         self.padding = 200
         self.oldimage = 0
-        self.cmap = cm.get_cmap("jet")
         # self.launchAction()
 
     def setUp_launchButton(self):
