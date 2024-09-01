@@ -21,7 +21,7 @@ jobs:
       - uses: Nuitka/Nuitka-Action@main
         with:
           nuitka-version: main
-          script-name: Main.py
+          script-name: PyQPI.py
           onefile: false
           working-directory: pyqpi
           standalone: true
@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: zip
-          path: build/PyQPI.zip
+          path: build/PyQPI
