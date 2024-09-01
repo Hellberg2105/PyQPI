@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: zip
-          path: build/PyQPI
+          path: build/PyQPI.dist
