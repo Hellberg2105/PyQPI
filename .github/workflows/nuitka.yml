@@ -26,6 +26,7 @@ jobs:
           working-directory: pyqpi
           standalone: true
           enable-plugins: pyqt5
+          follow-imports: true
 
       # Uploads artifact
       - uses: actions/upload-artifact@v4
